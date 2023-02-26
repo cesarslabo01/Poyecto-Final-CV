@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/8641/8641625.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/funciones.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div class="general">
+        <div class="base">
+            <div  class="perfil">
+                <div class="foto_personal">
+                    <img src="https://randomuser.me/api/portraits/men/28.jpg" alt="Foto de Roberto Carlos" width=auto height="150px">
+                </div>
+                <div class="info_personal">
+                    <h1 class="nombre">Roberto Carlos</h1>
+                    <h1 class="estudio">Ingeniero Automotriz</h1>
+                </div>
+            </div>
+            <div class="conoceme">
+                <h3>Sobre mi:</h3>Buena expresión verbal, para una comunicación vía oral y escrita. Disposición a la hora de trámites dentro y fuera 
+                de la Empresa. Seriedad laboral, ya que me caracteriza la Puntualidad y buena presentación. Tambien poseo 
+                disponibilidad Full-Time.
+            </div>
+            <div class="Contacto">
+                <h3>Medios de contacto</h3>
+                <div class="Telefono"><span>0379-4303097</span></div>
+                <div class="Direccion"><span>España 956, Corrientes Argentina</span></div>
+                <div class="email"><span>robcarlos@gmail.com</span></div>
+            </div>
+        </div>
+        <div class="capacidades">
+            <div class="trabajo">
+                <button class="boton" onclick="ocultardatos()"></button>
+                <h3>Experiencias</h3>
+                <ul id="datosexp" style="display: none;">
+                    <li><span>Macro Intell SA - Tecnico Electronico</span><br><small>2021 - Ahora</small></li>
+                    <li><span>Informatic Training Center - Capacitador de Cursos de Informatica</span><br><small>2019 - 2021</small></li>
+                    <li><span>Atento SA - Asesor Soporte técnico</span><br><small>2015 - 2019</small></li>
+                    <li><span>Ferreteria Chacabuco - Ventas en Mostrador</span><br><small>2014 - 2015</small></li>
+                    <li><span>Colegio de Bioquímicos - Administrador de Redes</span><br><small>2014 - 2015</small></li>
+                    <li><span>Repuestock - Ventas en Mostrador</span><br><small>2012 - 2013</small></li>
+                    <li><span>Compurestore - Soporte técnico</span><br><small>2009 - 2014</small></li>
+                </ul>
+            </div>
+            <div class="estudios">
+                <button class="boton" onclick="ocultardatos2()"></button>
+                <h3>Estudios</h3>                
+                <ul id="datosest" style="display: none;">
+                <li><span>Universidad Tecnologica Nacional</span><br><small>2009 - 2020</small></li>
+                <li><span>Instituto Privado San Benito</span><br><small>2002 - 2008</small></li>
+                </ul>
+            </div>
+            <div class="conocimientos">
+                <button class="boton" onclick="ocultardatos4()"></button>
+                <h3>Conocimientos</h3>
+                    <ul id="datoscono" style="display: none;">
+                    <li><span>Dominio avanzado de Microsoft Office, Outlook, Internet</span></li><br>
+                    <li><span>Dominio intermedio de Adobe Photoshop, Corel Graphic Suite</span></li><br>
+                    <li><span>Diseño Técnico Industrial. AutoCAD</span></li><br>
+                    <li><span>Dominio intermedio de Programación en PHP</span></li><br>
+                    <li><span>Diagnóstico y Mantenimiento de PC</span></li><br>
+                    <li><span>Conocimientos en Instalaciones Eléctricas</span></li><br>
+                    <li><span>Conocimientos en Refrigeración</span></li><br>
+                </ul>
+            </div>
+            <div class="otrosestudios">
+                <button class="boton" onclick="ocultardatos3()"></button>
+                <h3>Otros Estudios</h3>
+                <ul id="datosotrosest" style="display: none;">
+                    <h3><span><small>Universidad Tecnológica Nacional</small></span></h3>
+                    <li><span>2009</span>- curso de pascal básico.</small></li>
+                    <li><span>2010</span>- curso de java básico.</small></li>
+                    <li><span>2010</span>- curso de motores eléctricos.</small></li>
+                    <li><span>2011</span>- curso de instalación y configuración de redes.</small></li>
+                    <li><span>2012</span>- curso de reparación, armado y configuración de PC.</small></li>
+                    <h3><span><small>Atento S.A.</small></span></h3>
+                    <li><span>2015</span>-  curso de Seguridad e Higiene.</small></li>
+                    <li><span>2015</span>-  curso de Prevención y Cuidado en el Uso de la Voz.</small></li>
+                    <li><span>2015</span>-  curso de Producto TASA Soporte Primario.</small></li>
+                    <li><span>2015</span>-  curso de Especialización Soporte Avanzado STB.</small></li>
+                    <li><span>2015</span>-  curso de Especialización Soporte Avanzado SPEEDY.</small></li>
+                    <li><span>2016</span>-  curso de Producto TASA Soporte Avanzado + Especial ADSL.</small></li>
+                    <li><span>2018</span>-  curso de Producto TASA Prueba Piloto IPTV.</small></li>
+                    <h3><span><small>ITC Argentina</small></span></h3>
+                    <li><span>2019</span>- capacitación de Secretariado Ejecutivo.</small></li>
+                    <li><span>2019</span>- administración de Empresas.</small></li>
+                    <li><span>2019</span>- diseño Gráfico Publicitario.</small></li>
+                    <li><span>2019</span>- diseño Técnico Industrial.</small></li>
+                    <li><span>2019</span>- diagnóstico y Mantenimiento de PC.</small></li>
+                    <li><span>2020</span>- marketing Digital.</small></li>
+                    <li><span>2020</span>- robótica – Arduino.</small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
