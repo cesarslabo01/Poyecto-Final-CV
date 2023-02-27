@@ -234,4 +234,5 @@ f
 
 button::before {
   content: '\02b';
+  font-weight: 900;
 }
