@@ -42,7 +42,6 @@ ul {
 h3 {
   color: orange;
   margin: 10px 0;
-  
   font-size: 1.25em;
 }
 
@@ -89,10 +88,7 @@ h3 {
   transform: skewY(-5deg);
   z-index: -1;
 }
-.general .base .perfil .foto_personal {
-  width: 100%;
-  border-radius: 50%;
-}
+
 .general .base .perfil .foto_personal {
   display: flex;
   justify-content: center;
@@ -168,7 +164,7 @@ h3 {
   height: 10px;
   left: 1px;
 }
-f
+
 .general .capacidades .trabajo ul li::before,
 .general .capacidades .trabajo ul li::after,
 .general .capacidades .estudios ul li::before,
